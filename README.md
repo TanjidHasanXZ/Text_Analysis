@@ -1,12 +1,11 @@
+
 # Text Analysis
 
 This project involves implementing an approximation of the **Flesch Reading Ease Score (FRES)** by fulfilling specific requirements.
 
 ## Flesch Reading Ease Score (FRES) Formula:
 
-\[
-FRES = 206.835 - 1.015 \times \left(\frac{\text{Number of words}}{\text{Number of sentences}}\right) - 84.6 \times \left(\frac{\text{Number of syllables}}{\text{Number of words}}\right)
-\]
+FRES = 206.835 - 1.015 * (Number of words / Number of sentences) - 84.6 * (Number of syllables / Number of words)
 
 The formula evaluates text readability based on word, sentence, and syllable counts.
 
@@ -70,8 +69,22 @@ The formula evaluates text readability based on word, sentence, and syllable cou
 Below is an example of the expected console output based on the test cases provided in the `main()` function:
 
 **Test String**: `"No one said; it would. be easy! AaEe IiOoUu?"`
+```
+Characters: 44
+Words: 9
+Sentences: 4
+Syllables: 20
+Readability: 16.6 out of 100
+```
 
 **Test String**: `"William Lyon Phelps, The Pleasure of Books:"`
+```
+Characters: 402
+Words: 72
+Sentences: 6
+Syllables: 123
+Readability: 50.1 out of 100
+```
 
 ---
 

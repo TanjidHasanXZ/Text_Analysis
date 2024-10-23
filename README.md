@@ -3,8 +3,10 @@
 This project involves implementing an approximation of the **Flesch Reading Ease Score (FRES)** by fulfilling specific requirements.
 
 ## Flesch Reading Ease Score (FRES) Formula:
-FRES = 206.835 - 1.015 * (Number of words / Number of sentences) - 84.6 * (Number of syllables / Number of words)
 
+\[
+FRES = 206.835 - 1.015 \times \left(\frac{\text{Number of words}}{\text{Number of sentences}}\right) - 84.6 \times \left(\frac{\text{Number of syllables}}{\text{Number of words}}\right)
+\]
 
 The formula evaluates text readability based on word, sentence, and syllable counts.
 
@@ -71,7 +73,6 @@ Below is an example of the expected console output based on the test cases provi
 
 **Test String**: `"William Lyon Phelps, The Pleasure of Books:"`
 
-
 ---
 
 ## Notes
@@ -80,4 +81,3 @@ Below is an example of the expected console output based on the test cases provi
 - Use the functions implemented above to calculate the respective values required for the FRES formula.
 
 ---
-

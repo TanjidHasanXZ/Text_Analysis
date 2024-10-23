@@ -12,7 +12,7 @@ typedef struct {
 	double readability;
 }properties;
 
-/* Function prototypes (provided by examiner) */
+/* Function prototypes */
 void printTextProperties(properties);
 int getCharacterCount(char* text, char character);
 int getNumberOfWords(char* text);

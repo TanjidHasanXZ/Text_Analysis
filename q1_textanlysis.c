@@ -1,8 +1,4 @@
-/*
-Lab exam IE-B1-SOL1 (Software construction 1)
-*/
 
-/* Include files */
 #define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #include<stdlib.h>
